@@ -1,0 +1,16 @@
+.hour-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 10vh;
+    left: 10vw;
+    min-height: 25vh;
+    min-width: 35vw;
+    border-radius: 10px;
+    display: flex;
+}
+
+.hour {
+    color: white;
+    font-size: 15vmin;
+    margin: auto;
+}
