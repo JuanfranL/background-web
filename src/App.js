@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Hour from './components/hour/Hour'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          background-web test
-        </p>
-      </header>
+    <div className="app">
+      <div className="app-body">
+        <Hour></Hour>
+      </div>
     </div>
   );
 }
